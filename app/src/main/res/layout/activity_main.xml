@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abdulbasitmehtab.contactsmanager.MainActivity">
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Delete Contact" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnDelete"
+        android:layout_alignStart="@+id/btnDelete"
+        android:layout_marginBottom="36dp"
+        android:text="Add New Contact" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnAdd"
+        android:layout_alignStart="@+id/btnAdd"
+        android:layout_marginBottom="36dp"
+        android:text="Search Contact" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnDelete"
+        android:layout_below="@+id/btnDelete"
+        android:layout_marginTop="36dp"
+        android:text="Update Contact" />
+</RelativeLayout>
